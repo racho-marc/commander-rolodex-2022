@@ -1,0 +1,15 @@
+.search {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 0.75em;
+  font-size: 1.25em;
+  line-height: 30px;
+  width: 60%;
+  margin: 0 auto 30px;
+}
+@media screen and (max-width: 1024px) {
+  .search {
+    width: 100%;
+  }
+}
